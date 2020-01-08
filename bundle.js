@@ -22,7 +22,7 @@ var App = _react2['default'].createClass({
         return _react2['default'].createElement(
             'div',
             null,
-            _react2['default'].createElement(_modulesHeader2['default'], { title: "React ES6 Mortgage Calculator" }),
+            _react2['default'].createElement(_modulesHeader2['default'], { title: "Mortgage Calculator" }),
             _react2['default'].createElement(_modulesMortgageCalculator2['default'], { principal: "200000", years: "30", rate: "5" })
         );
     }
