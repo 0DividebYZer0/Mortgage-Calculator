@@ -41,6 +41,9 @@ export default React.createClass({
                 </div>
                 <h2>Monthly Payment: <span className="currency">{Number(monthlyPayment.toFixed(2)).toLocaleString()}</span></h2>
                 <AmortizationChart data={amortization}/>
+                                 <div className="">
+        <button onClick={}>SAVE ALL!</button>
+      </div>
             </div>
         );
     }
