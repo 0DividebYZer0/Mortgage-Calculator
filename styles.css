@@ -115,7 +115,7 @@ label {
 }
 
 .currency::before {
-    content:"$";
+    content:"R";
 }
 
 .left {
